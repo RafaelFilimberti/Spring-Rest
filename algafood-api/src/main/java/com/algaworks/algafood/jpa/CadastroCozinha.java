@@ -15,25 +15,30 @@ public class CadastroCozinha {
 
 	@PersistenceContext
 	public EntityManager manager;
-	
-	public List<Cozinha> Listar(){
-	//TypedQuery<Cozinha> query =	manager.createQuery("from Cozinha", Cozinha.class);
 
-	//return query.getResultList();
-		
-		return manager.createQuery("from Cozinha", Cozinha.class) //método para listar todas as cozinhas
+	public List<Cozinha> Listar() {
+		// TypedQuery<Cozinha> query = manager.createQuery("from Cozinha",
+		// Cozinha.class);
+
+		// return query.getResultList();
+
+		return manager.createQuery("from Cozinha", Cozinha.class) // método para listar todas as cozinhas
 				.getResultList();
-	}	
-	
-	
+	}
+
 	public Cozinha buscar(Long id) {
 		return manager.find(Cozinha.class, id);
 	}
-	
-	
+
 	@Transactional
 	public Cozinha salvar(Cozinha cozinha) {
 		return manager.merge(cozinha);
 	}
-	
+
+	@Transactional
+	public void remover(Cozinha cozinha) {
+		cozinha = buscar(cozinha.getId());
+		manager.remove(cozinha);
+	}
+
 }
