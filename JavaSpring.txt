@@ -48,11 +48,11 @@ POM.xml - Arquivo do MAVEN (
 2.9. O que é injeção de dependências?
 - inversão de controle (OC) - algo de fora da classe controla as chamadas
 
+2.10 
 Ioc Container (Spring Contest) - injeção de dependência - 
 Bean - Objetos gerenciados pelo Container do Spring
 
 OC do spring - interface application contest
-
 
 aula 2.14
 3 ponto de injeção do @Autowired
