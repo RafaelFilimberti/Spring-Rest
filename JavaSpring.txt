@@ -1,0 +1,104 @@
+
+
+REST -
+
+
+SPRING - Tecnologia de backend - ajuda a criar aplicações Java com simplicidade e agilidade
+.Resolve vários problemas durante o desenvolvimento
+.Simplifica o desenvolvimento
+.Maturidade, usada em várias empresas
+.Modularidade, facilidade de uso com outros projetos
+.Evolução constante
+.Open source
+
+SPRING BOOT - simplifica ainda mais, montando as dependências e o projeto para que o desenvolvedor foque mesmo nas regras de negócio e não perca tanto tempo nas configurações.
+
+Jakarte EE e Java EE - mesma coisa JEE (Java passou pra eclipse Foundation  cuidar, não poderia continuar usando o mesmo nome)
+
+JEE - (Especificação (guarda-chuva) que tem dentro dele várias especificações)
+JPA - especificação que está dentro do JEE
+
+Vendor-Lockin - Poder de escolha
+
+
+
+
+MAVEN - Ferramenta de gerenciamento de dependência e automação de builds para projetos Java.
+
+POM.xml - Arquivo do MAVEN (
+<parent> - herdando arquivos de dependências da versão do spring
+
+
+
+2.9. O que é injeção de dependências?
+- inversão de controle (OC) - algo de fora da classe controla as chamadas
+
+Ioc Container (Spring Contest) - injeção de dependência - 
+Bean - Objetos gerenciados pelo Container do Spring
+
+OC do spring - interface application contest
+
+
+aula 2.14
+3 ponto de injeção do @Autowired
+no Construtor, no Setters e no atributo
+
+-Usar sempre no Construtor , deixa claro quando vai instânciar uma nova classe , quase são as dependências obrigatórias da classe
+
+------------------------------------------------------------------
+
+aula 2.16
+-criar uma List para resolver problemas de ambiguidade
+private List<Notificador> notificadores;
+//nesse for estamos listando todos os notificadores que existem
+	for (Notificador notificador : notificadores) {
+			notificador.notificar(cliente, "Seu cadastro no sistema está ativo!");
+		}
+
+aula 2.19 
+usar a desambiguação customizada
+--------------------------------------------------------------------
+
+2.22
+Observer - deixar o acoplamento mais baixo entre as classes
+
+------------------------------------------------------------------
+
+Port mysql - 3306
+senha do banco - msys1234
+
+-------------------------------------------------------------------
+
+3.2
+
+ORM - mapeamento objeto relacional
+
+JPA - descreve como vai funcionar a solução (ORM)
+
+Hibernate - implementação da solução
+
+-------------------------------------------------------------------
+
+
+padrão Aggregate do DDD
+no banco uma subtabela não pode ser vinculada a outra subtabela
+
+- se cria um repository por agregado e não por tabela
+
+
+-------------------------------------------------------------------
+
+
+
+
+
+2.7
+
+
+
+
+
+
+
+
+
