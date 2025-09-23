@@ -1,5 +1,20 @@
 
 
+public class Aluno {
+    private String nome; // "meu nome"
+    
+    public void apresentar(String nome) { // nome de outro aluno
+        System.out.println("Meu nome é: " + this.nome); // MEU nome
+        System.out.println("O nome dele é: " + nome);   // nome do parâmetro
+    }
+}
+
+O this é basicamente você dizendo: "eu estou me referindo ao MEU atributo, não ao parâmetro/variável local com o mesmo nome!"
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
 REST -
 
 
@@ -87,16 +102,6 @@ no banco uma subtabela não pode ser vinculada a outra subtabela
 
 
 -------------------------------------------------------------------
-
-
-
-
-
-2.7
-
-
-
-
 
 
 
