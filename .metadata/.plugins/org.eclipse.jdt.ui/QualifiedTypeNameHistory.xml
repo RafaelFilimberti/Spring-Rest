@@ -11,8 +11,12 @@
     <fullyQualifiedTypeName name="com.algaworks.di.notificacao.Notificador"/>
     <fullyQualifiedTypeName name="com.algaworks.di.notificacao.NotificadorSMS"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-    <fullyQualifiedTypeName name="com.algaworks.algafood.di.notificacao.NotificadorEmail"/>
-    <fullyQualifiedTypeName name="com.algaworks.algafood.di.service.AtivacaoClienteService"/>
     <fullyQualifiedTypeName name="com.algaworks.algafood.di.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="com.algaworks.algafood.di.notificacao.NotificadorEmail"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="com.algaworks.algafood.di.notificacao.Notificador"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.algaworks.algafood.di.service.AtivacaoClienteService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
